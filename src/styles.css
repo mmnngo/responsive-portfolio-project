@@ -21,6 +21,11 @@ h1 {
   line-height: 1.2;
 }
 h2 {
+  font-size: 64px;
+  font-family: var(--heading-font-family);
+}
+
+.homepage-intro h2 {
   font-size: 34px;
   color: #272142;
   font-weight: bold;
@@ -31,6 +36,7 @@ h3 {
   font-weight: normal;
   line-height: 2;
 }
+
 .homepage-intro {
   background-color: var(--secondary-color);
   text-align: center;
@@ -45,7 +51,37 @@ h3 {
   display: inline-block;
   text-align: center;
 }
+
+.btn-branding-outline {
+  border-radius: 4px;
+  border: 1px solid var(--branding-color);
+  color: var(--branding-color);
+  background-color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  display: inline-block;
+}
 .about-me-link {
   color: white;
   text-decoration: none;
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 46px;
+    line-height: 2;
+  }
+  h2 {
+    font-size: 46px;
+  }
+  .homepage-intro {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
