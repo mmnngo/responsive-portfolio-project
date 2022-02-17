@@ -13,6 +13,7 @@ h5,
 h6 {
   font-family: var(--default-font-family);
 }
+
 h1 {
   font-size: 96px;
   font-weight: bold;
@@ -20,6 +21,7 @@ h1 {
   color: black;
   line-height: 1.2;
 }
+
 h2 {
   font-size: 64px;
   font-family: var(--heading-font-family);
@@ -31,11 +33,13 @@ h2 {
   font-weight: bold;
   margin: 0;
 }
+
 h3 {
   font-size: 24px;
   font-weight: normal;
   line-height: 2;
 }
+
 h4 {
   font-size: 48px;
   font-family: var(--heading-font-family);
@@ -49,20 +53,24 @@ nav p {
   display: inline;
   margin: 6px;
 }
+
 nav ul {
   margin: 0;
   padding: 0;
 }
+
 nav li {
   display: inline;
   list-style: none;
   line-height: 36px;
   margin-left: 15px;
 }
+
 nav li.active a,
 a:hover {
   color: var(--branding-color);
 }
+
 nav a {
   text-decoration: none;
   color: #272142;
@@ -82,6 +90,7 @@ footer .contact-box {
 footer .contact-box p {
   margin: 0;
 }
+
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -112,6 +121,7 @@ footer .social-links a:hover {
   text-align: center;
   padding: 160px 20px;
 }
+
 .btn-branding {
   background-color: var(--branding-color);
   color: white;
@@ -133,45 +143,61 @@ footer .social-links a:hover {
   padding: 15px 30px;
   display: inline-block;
 }
+
 .about-me-link {
   color: white;
   text-decoration: none;
+  transition: all 100ms ease-in-out;
 }
+
+.about-me-link:hover {
+  color: #272142;
+}
+
 .project-description {
   padding: 120px 60px;
 }
+
 .content-container {
   padding: 160px 20px;
 }
+
 .content {
   margin: 30px;
 }
+
 .content h1 {
   font-size: 64px;
   line-height: 80px;
 }
+
 .content h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
   font-weight: bold;
 }
+
 .content h3 {
   font-size: 24px;
   line-height: 1.5;
   font-family: var(--default-font-family);
 }
+
 .content p {
   font-size: 14px;
   line-height: 30px;
   font-weight: normal;
 }
+
 .img-fluid {
   max-width: 100%;
   height: auto;
 }
+
 .text-center {
   text-align: center !important;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 46px;
