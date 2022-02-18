@@ -162,6 +162,21 @@ footer .social-links a:hover {
   padding: 160px 20px;
 }
 
+.content-container .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  font-size: 30px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+.content-container .social-links a:hover {
+  color: white;
+  background-color: var(--branding-color);
+}
+
 .content {
   margin: 30px;
 }
