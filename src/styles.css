@@ -52,6 +52,8 @@ nav {
 nav p {
   display: inline;
   margin: 6px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 nav ul {
@@ -91,7 +93,8 @@ footer .contact-box p {
   margin: 0;
 }
 
-footer .email-link {
+footer .email-link,
+.email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
@@ -209,8 +212,8 @@ footer .social-links a:hover {
   height: auto;
 }
 
-.text-center {
-  text-align: center !important;
+.self-image {
+  filter: grayscale(100%);
 }
 
 @media (max-width: 900px) {
